@@ -144,6 +144,14 @@ Make sure you have a stable internet connection for the Googletrans API calls to
 
 The script automatically creates the uploads and captions directories if they don’t exist.
 
+## Endpoints
+
+| Endpoint                     | Methods      | Description                                                                                                                          |
+|-----------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| `/`                         | GET, POST    | **GET**: Renders the home page with upload form. <br> **POST**: Handles image upload, captioning, optional enhancement, and translation. |
+| `/download_caption/<file>`  | GET          | Returns the caption `.txt` file for download.                                                                                       |
+
+
 ## Possible Improvements
 - Model Customization: Fine-tune BLIP or BART for specific domains (e.g., product images, specific vocabulary).
 
@@ -154,10 +162,3 @@ The script automatically creates the uploads and captions directories if they do
 - Containerization: Deploy using Docker for easy environment management.
 
 - Authentication: Add user accounts to track usage or save personal libraries of images/captions.
-
-## Endpoints
-
-| Endpoint                     | Methods      | Description                                                                                                                          |
-|-----------------------------|--------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| `/`                         | GET, POST    | **GET**: Renders the home page with upload form. <br> **POST**: Handles image upload, captioning, optional enhancement, and translation. |
-| `/download_caption/<file>`  | GET          | Returns the caption `.txt` file for download.                                                                                       |

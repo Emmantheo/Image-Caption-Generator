@@ -19,7 +19,6 @@ A simple Flask-based web application that:
 - [Configuration Details](#configuration-details)
 - [Endpoints](#endpoints)
 - [Possible Improvements](#possible-improvements)
-- [License](#license)
 
 ---
 

@@ -1,0 +1,6 @@
+Image Title: 411651_Turn3_ModelB
+
+Default: a graph with a red and blue box
+Short: a graph with a red and blue box
+Detailed: a graph with a red and blue box
+Creative: the regression chart of data from a computer screen

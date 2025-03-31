@@ -73,8 +73,9 @@ Ensure you have the following libraries (included in requirements.txt):
 - googletrans==4.0.0-rc1 (Version pinned due to potential compatibility issues)
 (Any other relevant dependencies)
 
-Usage
-Run the Flask App:
+## Usage
+
+1. Run the Flask App:
 ```bash
   python app.py
 ```
@@ -102,7 +103,7 @@ By default, the app starts in debug mode on http://127.0.0.1:5000 or http://loca
 
 - You can click the Download Caption link to save the translated caption as a text file.
 
-File Structure
+## File Structure
 ```php
 .
 ├─ app.py                 # Main Flask application
@@ -114,7 +115,7 @@ File Structure
 │   └─ index.html         # Front-end page for uploading & displaying captions
 └─ README.md              # This README file
 ```
-5 Configuration Details
+## Configuration Details
 - UPLOAD_FOLDER (static/uploads): Where uploaded images are saved.
 
 - CAPTION_FOLDER (static/captions): Where caption text files are saved.
@@ -143,7 +144,7 @@ Make sure you have a stable internet connection for the Googletrans API calls to
 
 The script automatically creates the uploads and captions directories if they don’t exist.
 
-6 Possible Improvements
+## Possible Improvements
 - Model Customization: Fine-tune BLIP or BART for specific domains (e.g., product images, specific vocabulary).
 
 - Advanced Translations: Implement offline translation or alternative translation services for better reliability.

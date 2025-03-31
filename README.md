@@ -139,10 +139,11 @@ LANGUAGES = {
     "hi": "Hindi",
     "ar": "Arabic",
 }
+```
 Make sure you have a stable internet connection for the Googletrans API calls to succeed (if required).
 
 The script automatically creates the uploads and captions directories if they don’t exist.
-```
+
 6 Possible Improvements
 - Model Customization: Fine-tune BLIP or BART for specific domains (e.g., product images, specific vocabulary).
 
